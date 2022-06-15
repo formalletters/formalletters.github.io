@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FormalLetters Inc.</title>
+    </head>
+    <style>
+        body {
+            background-color: pink;
+            font-family: sans-serif;
+        }
+        h1 {
+            color: maroon;
+        }
+    </style>
+    <body>
+        <h1>Formal Letters</h1>
+        <h3>i need money please and thank you for your service</h3>
+        <button id="click">Donate</button>
+    <script>
+        var donate = document.getElementById("click");
+        var onButtonClick = function() {
+            donate.textContent = "Thank you for your kind service person from another mother or father or sister or brother or grandpa or grandma or aunt or uncle or great grandma or great grandpa or great great grandma or great great grandpa!";
+        };
+        donate.addEventListener("click", onButtonClick);
+        donate.addEventListener("click", function() {
+            donate.textContent = "Thank you for your kind service person from another mother or father or sister or brother or grandpa or grandma or aunt or uncle or great grandma or great grandpa or great great grandma or great great grandpa!";
+        });
+    </script>
+    </body>
+</html>
